@@ -33,6 +33,7 @@ setup(
         'configurations.tests',
         'configurations.tests.settings',
     ],
+    scripts=['configurations/bin/django-configurations-admin.py'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
